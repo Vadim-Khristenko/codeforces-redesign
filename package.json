@@ -16,7 +16,17 @@
     "url": "git+https://github.com/Vadim-Khristenko/codeforces-redesign.git"
   },
   "license": "MIT",
-  "author": "Vadim Khristenko",
+  "author": {
+    "name": "Vadim Khristenko",
+    "email": "",
+    "url": "https://github.com/Vadim-Khristenko"
+  },
+  "contributors": [
+    {
+      "name": "kmetama",
+      "url": "https://github.com/kmetama"
+    }
+  ],
   "type": "commonjs",
   "main": "src/index.tsx",
   "scripts": {
@@ -38,5 +48,3 @@
     "vite": "^6.3.5"
   }
 }
-
-

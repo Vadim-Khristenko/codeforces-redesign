@@ -85,3 +85,7 @@ src/
 
 ## 📄 License  
 MIT License – see the [LICENSE](LICENSE) file for details.
+
+## Contributors
+- [Vadim Khristenko](https://github.com/Vadim-Khristenko)
+- [kmetama](https://github.com/kmetama)
