@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Codeforces Redesign",
+  "version": "1.0.0",
+  "description": "Modern redesign for Codeforces platform",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "*://*.codeforces.com/*"
+  ],
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.codeforces.com/*"],
+      "js": ["src/content.js"],
+      "css": ["src/styles.css"]
+    }
+  ]
+}
+

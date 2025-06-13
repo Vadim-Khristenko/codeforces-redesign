@@ -1,0 +1,42 @@
+{
+  "name": "codeforces-redesign",
+  "version": "1.0.0",
+  "description": "Modern redesign for Codeforces platform",
+  "keywords": [
+    "Codeforces",
+    "Themes",
+    "Customization"
+  ],
+  "homepage": "https://github.com/Vadim-Khristenko/codeforces-redesign#readme",
+  "bugs": {
+    "url": "https://github.com/Vadim-Khristenko/codeforces-redesign/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vadim-Khristenko/codeforces-redesign.git"
+  },
+  "license": "MIT",
+  "author": "Vadim Khristenko",
+  "type": "commonjs",
+  "main": "src/index.tsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/chrome": "^0.0.326",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.5.2",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.10",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
+
+
